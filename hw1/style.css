@@ -1,16 +1,19 @@
 .img-2336 {
   width: 300px;
   
-
 }
 
 p {
   width: 300px;
-  
-  
+   
 }
 
 .tags {
   width:400px;
+  
+}
+
+.play {
+  float: right;
   
 }
