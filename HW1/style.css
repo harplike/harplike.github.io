@@ -1,9 +1,12 @@
 .img-2336 {
   width: 300px;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
 
 }
 
 p:first-of-type {
   float: right;
+  display: inline-block;
+  
 }
