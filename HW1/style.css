@@ -1,7 +1,9 @@
 .img-2336 {
   width: 300px;
-  
+  float: left;
 
 }
 
-
+p:first-of-type {
+  float: right;
+}
