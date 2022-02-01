@@ -6,4 +6,11 @@
 
 p:first-of-type {
   float: right;
+  
+  
+}
+
+.tags {
+  width: 200px;
+  
 }
