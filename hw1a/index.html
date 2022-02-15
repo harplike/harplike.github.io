@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>CIS-128 Mobile Web App Development</title>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <link href='./style.css' rel='stylesheet'>
+  </head>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Yasmeen HW1A for CIS-128">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Yasmeen"> 
+
+ <body>
+   <h1 style="font-size:45px">HTML & CSS Webpage</h1>
+   <button class= "font1">click me</button>
+
+   <script>
+    $(document).ready(function(){
+      $(".font1").click(function(){
+
+        $("img").css('border', "solid 15px red");
+
+        $("h1").animate({
+           fontSize: "90px"
+        });
+
+        $("h1").animate({
+           fontSize: "45px"
+        });
+        $("h1").css("color", "yellow");
+
+        const myTimeout = setTimeout(changeColor, 750);
+
+        function changeColor() {
+          $("h1").css("color", "blue");
+        };
+
+      });
+    })
+      
+   </script>
+  <div>
+    <div style="display:inline-block;">
+    <img class="img-2336" src="https://i.imgur.com/RxChzAP.jpg" alt="Yasmeen on a car ride with her trusty yellow backpack." />
+    </div>
+    <div style="display:inline-block;">
+    <p>Hi I am Yasmeen and I am finishing up my computer science degree this semester. I have learned a lot at school but it still is not enough! I work at a plant nursery but am looking to apply for internships soon. My favorite places are the beach, the mountains, and anywhere with my friends. I enjoy gardening and puzzles in my free time. I hope to have some more free time soon!</p>
+    </div>
+   </div>
+   <div class="tags">
+    <p>I am attending this class because it is relevant to my major and I am super interested in having the skills and knowledge behind mobile web app development. Broadening my computer science abilities is a big goal of mine and I hope to be proficient.</p>
+   </div> 
+  <h3>Technologies for this class</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  
+
+  <h3>Resources</h3>
+    <ul>
+      <li><a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">Stack</a>-helpful website for solving compiler errors</li>
+      <li><a href="https://www.codecademy.com/learn" target="_blank" rel="noopener noreferrer">Code</a>-useful website for practicing coding</li>
+    </ul>
+
+  </body>
+
+</html>
+
+
