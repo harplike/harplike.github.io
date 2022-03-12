@@ -47,7 +47,7 @@
 		background:#4a4a4a;	/* this is a dark grey background for the link */
 		color:#fff;	/* this makes the link text white */
 		-moz-border-radius:2px; 
-		webkit-border-radius:2px; 
+		-webkit-border-radius:2px; 
 		border-radius:2px;	/* these 3 lines of border-radius code make rounded corners work in firefox, safari, chrome, opera and IE9 */
 		border:1px solid #595959; /* this adds a light grey solid border of 1px width around the link */
 		padding:3px 10px;	/* as the name implies, this adds extra padding around the link, so that the borders don't bump up against the link text */
@@ -55,8 +55,7 @@
 	}
 						
 	ul.navigation li a:hover{
-		background-color:#000; /*this is a hover pseudo class.  By designating a different background color, than the class for the a tag above, when a mouse hovers over these particular links, in the navigation bar, the background color will change to what's defined here */
-		
+		background-color:#000; /*this is a hover pseudo class.  By designating a different background color, than the class for the a tag above, when a mouse hovers over these particular links, in the navigation bar, the background color will change to what's defined here */	
 	}
 	
 	div.content{
@@ -66,7 +65,7 @@
 				
 	#col-right{
 		float:right;
-		width:660px
+		width:660px;
 		}
 		
 	#sidebar-left{
@@ -75,13 +74,14 @@
 		width:200px;	/* when floating content next to each other, applying set widths will make the content play nice with each other. Change the width of the siebar, or take away the width of the above "div.col-right" and see what happens to get a better idea of how widths effect floats */
 		}
 		
-	div.sidebar-left a{
+	#sidebar-left a{
 		color:#445e64;	/* this redefines all links in the left sidebar to this new color, as opposed to the default blue link color */
 	}
 	
-	div.sidebar-left a:hover{
-		text-decoration:none
-	}	/* when hovering over a link, in the sidebar, this turns off the underline */
+	#sidebar-left a:hover{
+		text-decoration: none;/* when hovering over a link, in the sidebar, this turns off the underline */
+		color: #ffff00;/*changing how you see the hyperlinks as user hovers-color change to bright yellow*/
+	}	
 	
 	.list{
 		border-bottom:1px solid #c3dce1; /* adds a border to the bottom of the list to further divide the content for eaier segragation */
@@ -121,21 +121,20 @@
 /*media query for mobile device size width like iphone se*/
 @media screen and (min-width: 1px) and (max-width:400px){
 	div#header{ 
-		width: 100%;
+		float:center;
+		width: 150%;
 		background-image: none;
 		background:#eaf8fb;;
 		color: #000000;
 		font-size: 1.5em;
-		padding: 0.3em 0em 0em 0.5em;
-		
+		padding: 0em 1em 0em 1em;	
 	}
 	body, #navigation ul{
 		width: 100%;
 		padding: 0.3em 0em 0.3em;
 	}
 	.column{
-		margin: 10px 0; 
-		border-bottom: 1px solid #595959;
+		border-bottom: .01em solid #595959;
 	}
 	#navigation ul li{
 		width: 100%; 
@@ -149,18 +148,13 @@
 		width: 100%;
 		background:#eaf8fb;;
 		position: absolute;
-		top: 75px;
-		right: 0;
-		z-index: 2;	
 		font-size: 1em;
-		padding: 1em 1.5rem;	
-	}
-					
+		padding: 1em 1.5em;	
+	}				
 	#navigation ul li{
 		display: block;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;	
 	}
 	#navigation ul li{
 		color: #000000;
@@ -189,14 +183,26 @@
 		padding: 0.3em 0em 0.3em 0.5em;
 	}
 	#sidebar-left h3{
-		
 		font-size: 1.5em;
 		padding: 0.3em 0em 0.3em 0.5em;
 	}
 	#sidebar-left li a{
-		
 		font-size: 1em;
 		padding: 0.3em 0em 0.3em 0.5em;
+	}
+	#sidebar-left a:hover{
+		text-decoration:underline;
+		color:#445e64;
+	}
+	div.content{
+		float:center;
+		margin: 0 auto;
+		width:200%;
+		padding: 0.3em 0em 0.3em;
+	}
+	div#footer{
+		float:center;
+		width:200%;
 	}
 
 }
@@ -205,19 +211,21 @@
 	.float-left{
 		max-width:100%;
 	}
+	div#header{ 
+		float:center;
+		width: 200%;
+	}
 	div.content p{
 		width:100%;
 		font-size: 1.25rem;
 		letter-spacing:.02em; 
 	}
-
 	body, #navigation ul{
 		width: 100%;
 		padding: 0.3em 0em 0.3em;
 	}
 	.column{
-		margin: 10px 0; 
-		border-bottom: 1px solid #595959;
+		border-bottom:.01em solid #595959;
 	}
 	#navigation ul li{
 		width: 100%; 
@@ -231,113 +239,52 @@
 		width: 100%;
 		background:#eaf8fb;;
 		position: absolute;
-		top: 75px;
+		top: 7.5em;
 		right: 0;
 		z-index: 2;	
 		font-size: 1em;
 		padding: 1em 1.5rem;	
-	}
-					
+	}				
 	#navigation ul li{
 		display: block;
-		margin-top: 10px;
-		margin-bottom: 10px;	
+		margin-top: 1.0em;
+		margin-bottom: 1.0em;	
 	}
 	#navigation ul li{
 		color: #000000;
 	}
 	#col-right, #sidebar-left, #content {
 		width:100%;	
-
 	}
-	#col-right p{
-		
+	#col-right p{		
 		font-size: 1.15rem;
-	
 	}
 	#col-right h1{
-		
-		font-size: 1.25rem;
-		
+		font-size: 1.25rem;	
 	}
-	#col-right h3{
-		
+	#col-right h3{	
 		font-size: 1.25rem;
-		
 	}
 	#sidebar-left p{
-		
 		font-size: 1rem;
-		
-		padding: 0.3em 0em 0.3em 0.5em;
-		
+		padding: 0.3em 0em 0.3em 0.5em;	
 	}
 	#sidebar-left h3{
-		
 		font-size: 1.25rem;
-		
 	}
 	#sidebar-left li a{
-		
 		font-size: 1rem;
-		
+	}
+	#sidebar-left a:hover{
+		text-decoration:underline;
+		color:#445e64;
+	}
+	div.content{
+		margin:0 auto;
+		width:200%;
+		padding: 0.3em 0em 0.3em;
+	}
+	div#footer{
+		width:200%;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*media query for large screen device like monitor	
-@media screen and (min-width:601px){
-	.float-left{
-
-	}
-	div.content {
-
-	}
-	#col-right p{
-	
-	}
-	#col-right h1{
-		
-	}
-	#col-right h3{
-		
-	}
-	#sidebar-left p{
-		
-	}
-	*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
