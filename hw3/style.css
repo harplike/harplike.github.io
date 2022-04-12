@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+*{
+	box-sizing:border-box;
+}
+
+.navbar{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.main{
+	margin-top: 7em;
+}
+
+.accordian{
+	margin-top: 10em;
+}
+
+:root{
+	--fugaz:"fugaz",bold;
+	--purple: #A020F0;
+	--bground: #F1FAFE;
+}
+
+.row h1{
+	font-family: var(--fugaz);
+	color: var(--purple);
+}
+
+header{
+	background: var(--bground);
+	padding-top: 1em;
+	padding-bottom:2em;
+
+	}
