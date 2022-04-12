@@ -4,7 +4,9 @@
 *{
 	box-sizing:border-box;
 }
-
+html, body, header{
+	height: 100%;
+}
 .navbar{
 	overflow: hidden;
 	position: fixed;
@@ -30,13 +32,8 @@
 	font-family: var(--fugaz);
 	color: var(--purple);
 }
-
 header{
 	background: var(--bground);
 	padding-top: 1em;
 	padding-bottom:2em;
-
 	}
-footer{
-	background: var(--bground);
-}
