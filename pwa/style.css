@@ -1,26 +1,26 @@
-body {	background-color; #ffffff;
-       font-family: Helvetica, Arial, sans-serif; 
-	   font-size: 1.5em; 
-	   color: blue;
+body {	
+    	background-color; #ffffff;
+        font-family: Helvetica, Arial, sans-serif; 
+	font-size: 1.5em; 
+	color: blue;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-	   
-h1 { text-align: center; 
-     margin-bottom: 2em;
-	 font-style: italic; }
-
-img { float: left; 
-	max-width:100%;
-       }
+  }	   
+h1 { 
+    text-align: center; 
+    margin-bottom: 2em;
+    font-style: italic; 
+   }
+img { 
+    float: left; 
+    max-width:100%;
+    }
 
 @media (min-width: 360px){
-
 	body{
     	     font-size: 1.0em;
   	}
 }
-
 @media (max-width:600px){
 	
 	body{
@@ -36,7 +36,7 @@ img { float: left;
 	}
 	img {
 	     max-width: 100%;
-  	     float: center;
+  	     padding-top: 42%;
 	}
 }
 
