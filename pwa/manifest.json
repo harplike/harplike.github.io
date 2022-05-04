@@ -6,6 +6,7 @@
     "background_color" : "#ffffff",
     "theme_color" : "#ffffff",
     "display" : "standalone",
+    "description" : "Homework 4 Progressive Web App",
     "icons" :[
         {
             "src" : "icon192.png",
