@@ -11,15 +11,7 @@ img { float: left;
 	max-width:100%;
        }
 
-@media (min-width: 360px){
-  
-	body{
-    	     font-size: 1.0em;
-  	}
-	img {
-	     max-width: 100%;
-	}
-}
+
 @media (max-width:600px){
 	
 	body{
@@ -27,7 +19,7 @@ img { float: left;
 		padding: 0.3em 0em 0.3em 0.5em;
 		float: center;
 	}
-	div.hi{
+	div.h1{
 		float:center;
 		margin: 0 auto;
 		width:100%;
