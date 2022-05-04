@@ -1,5 +1,5 @@
 body {	
-    	background-color; #ffffff;
+    	background-color; "white";
         font-family: Helvetica, Arial, sans-serif; 
 	font-size: 1.5em; 
 	color: blue;
@@ -27,10 +27,8 @@ img {
 	body{
 		width: 100%;
 		padding: 0.3em 0em 0.3em 0.5em;
-		float: center;
 	}
 	div.h1{
-		float:center;
 		margin: 0 auto;
 		width:100%;
 		padding: 0.3em 0em 0.3em 0.5em;
