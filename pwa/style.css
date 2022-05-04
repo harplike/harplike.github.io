@@ -2,6 +2,8 @@ body {	background-color; #ffffff;
        font-family: Helvetica, Arial, sans-serif; 
 	   font-size: 1.5em; 
 	   color: blue;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 	   
 h1 { text-align: center; 
