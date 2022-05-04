@@ -11,6 +11,12 @@ img { float: left;
 	max-width:100%;
        }
 
+@media (min-width: 360px){
+
+	body{
+    	     font-size: 1.0em;
+  	}
+}
 
 @media (max-width:600px){
 	
