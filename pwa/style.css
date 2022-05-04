@@ -2,7 +2,7 @@ body { background-color: red;
        font-family: Helvetica, Arial, sans-serif; 
 	   font-size: 1.5em; 
 	   color: blue;
-	background-image: "url('lightgold.png')";
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
