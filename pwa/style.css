@@ -16,9 +16,6 @@ img { float: left;
 	body{
     	     font-size: 1.0em;
   	}
-	img{
-	     width:200%;
-	}
 }
 @media (max-width:600px){
 	
