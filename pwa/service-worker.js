@@ -8,8 +8,8 @@ var CACHE_FILES = [
     'icon512.png',
     'icon384.png',
     'Icon-256.png',
-    'lightblue.png',
-    'lightgold.png',
+    'images/lightblue.png',
+    'images/lightgold.png',
     '414.png'
 ];
 
