@@ -1,7 +1,6 @@
 var CACHE_VERSION = 'myapp-v1';
 var CACHE_FILES = [
     './',
-    'cool.png',
     'app.js',
     'style.css',
     'icon192.png',
