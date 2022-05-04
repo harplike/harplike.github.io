@@ -27,7 +27,7 @@
 <body>
       <div class="container">       
       <select id="background">
-          <option value="">Choose!</option>
+          <option value="Start">Choose!</option>
         <option value="Gold">Gold</option>
         <option value="Blue">Blue</option>
       </select>
@@ -53,7 +53,7 @@
     else if(choice === 'Blue'){
         html.style.backgroundImage = "url('images/lightblue.png')";
     }
-    else if(choice === ''){
+    else if(choice === 'Start'){
         html.style.backgroundColor = "white";
     }
 }
