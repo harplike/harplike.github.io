@@ -9,7 +9,8 @@ var CACHE_FILES = [
     'icon384.png',
     'Icon-256.png',
     'lightblue.png',
-    'lightgold.png'
+    'lightgold.png',
+    '414.png'
 ];
 
 self.addEventListener('install', event => {
