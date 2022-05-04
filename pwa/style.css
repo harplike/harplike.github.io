@@ -8,8 +8,7 @@ h1 { text-align: center;
 	 font-style: italic; }
 
 img { float: left; 
-      border: 3px solid blue;
-	  border-radius: 10px; }
+       }
 
 @media (min-width: 360px){
   
@@ -22,18 +21,17 @@ img { float: left;
 	body{
 		width: 100%;
 		padding: 0.3em 0em 0.3em 0.5em;
+		float: center;
 	}
 	div.hi{
 		float:center;
 		margin: 0 auto;
-		width:200%;
-		padding: 0.3em 0em 0.3em;
+		width:100%;
+		padding: 0.3em 0em 0.3em 0.5em;
 	}
 	img {
 	     max-width: 100%;
-  	     display: block;
+  	     float: center;
 	}
 }
-	@media (min-width: 601px) {
-
-}
+	
