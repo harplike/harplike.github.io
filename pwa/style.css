@@ -19,6 +19,7 @@ img {
 @media (min-width: 360px){
 	body{
     	     font-size: 1.0em;
+	     padding: 42%;
   	}
 }
 @media (max-width:600px){
@@ -36,7 +37,7 @@ img {
 	}
 	img {
 	     max-width: 100%;
-  	     padding-top: 42%;
+  	     padding: 42%;
 	}
 }
 
