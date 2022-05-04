@@ -25,16 +25,13 @@
     </style>
 </head>
 <body>
-  <section>
-      <div class="container">
-          
+      <div class="container">       
       <select id="background">
           <option value="">Choose!</option>
         <option value="Gold">Gold</option>
         <option value="Blue">Blue</option>
       </select>
-      </div>
-  </section>   
+      </div> 
 <div>
 <h1>Want to learn about PWA... keep reading!</h1>
    
@@ -55,6 +52,9 @@
     }
     else if(choice === 'Blue'){
         html.style.backgroundImage = "url('images/lightblue.png')";
+    }
+    else if(choice === ''){
+        html.style.backgroundColor = "#ffffff";
     }
 }
 </script>
