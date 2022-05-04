@@ -6,6 +6,8 @@ var CACHE_FILES = [
     'style.css',
     'icon192.png',
     'icon512.png'
+    'icon384.png',
+    'Icon-256.png'
 ];
 
 self.addEventListener('install', event => {
