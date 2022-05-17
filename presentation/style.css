@@ -9,13 +9,6 @@ html, body, header, footer{
 	top: 0;
 	width: 100%;
 }
-.main{
-	margin-top: 7em;
-}
-.footer{
-	position: fixed;
-	overflow: hidden;
-}
 header{
 	background-color: white;
 	color: darkolivegreen;
