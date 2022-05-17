@@ -1,0 +1,41 @@
+
+*{
+	box-sizing:border-box;
+}
+html, body, header{
+	height: 100%;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.main{
+	margin-top: 7em;
+}
+:root{
+	--drkgreen: #2c9c42;
+	--bground: #ffffff;
+}
+.row h1 h3 p{
+	font: var(--drkgreen);
+}
+header{
+	background: var(--bground);
+	padding-top: 1em;
+	padding-bottom:2em;
+	}
+
+	@media screen and (max-width: 992px) {
+		header {
+		  background-color: white;
+		  color: darkolivegreen;
+		}
+	  }
+	
+	  @media screen and (max-width: 600px) {
+		header {
+		  background-color: white;
+		  color: darkolivegreen;
+		}
+	  }
